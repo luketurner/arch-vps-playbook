@@ -1,0 +1,5 @@
+---
+- hosts: archvps
+  user: {{ user_name }}
+  roles:
+    - archvps
